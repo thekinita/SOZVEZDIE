@@ -88,6 +88,15 @@ $(function() {
 
     });
 
+    $('[slider-for]').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      arrows: false,
+      fade: true,
+      asNavFor: '[region-slider]'
+    });
+
     $('[region-slider]').slick({
         infinite: false,
         slidesToShow: 1,
@@ -97,6 +106,9 @@ $(function() {
         dots: true,
         adaptiveHeight: true,
         mobileFirst: true,
+        prevArrow: '<button type="button" class="slick-arrow_region slick-prev">Previous</button>',
+        nextArrow: '<button type="button" class="slick-arrow_region slick-next">Next</button>',
+        asNavFor: '[slider-for]'
     });
 
 });
