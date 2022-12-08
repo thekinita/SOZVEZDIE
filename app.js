@@ -123,7 +123,7 @@ $(function() {
 });
 
 
-/* MAP */
+    /* MAP */
 
 const $leftLinks = document.querySelectorAll('.map-menu a'),
             $mapLinks = document.querySelectorAll('.map a');

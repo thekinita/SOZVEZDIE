@@ -503,11 +503,8 @@ a {
     margin: 100px 0 70px;
     padding: 100px 0;
 
-    background: url("img/intro_staff.jpg") center no-repeat;
+    background: #000;
     background-size: cover;
-
-    box-shadow: inset 5px 5px 200px 5px black;
-    text-shadow: 1px 1px black;
 }
 
 .team__inner {
