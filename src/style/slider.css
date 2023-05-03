@@ -1,0 +1,93 @@
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+  list-style: none;
+  width: 50%;
+
+  position: relative;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots button {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+
+  background: black;
+  border-radius: 50%;
+  border: 0;
+  opacity: .5;
+  cursor: pointer;
+
+  font-size: 0;
+}
+
+.slick-dots button:focus {
+  outline: 0;
+}
+
+.slick-dots .slick-active button {
+  opacity: 1;
+}
+
+.slick-arrow {
+  display: block;
+  font-size: 0;
+  border: 0;
+  background: none;
+  position: absolute;
+  top: 10%;
+  z-index: 1;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.slick-arrow_region {
+  display: block;
+  font-size: 0;
+  border: 0;
+  background: none;
+  position: absolute;
+  top: 75%;
+  z-index: 1;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.slick-next {
+  display: block;
+  right: 15%;
+  transform: rotate(135deg);
+}
+
+.slick-prev {
+  display: block;
+  left: 15%;
+  transform: rotate(-45deg);
+}
+
+.slick-arrow:after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-top: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  border-color: black;
+}
+
+.slick-prev.slick-disabled {
+  opacity: 0;
+}
+
+.slick-next.slick-disabled {
+  opacity: 0;
+}

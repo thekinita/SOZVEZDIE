@@ -1,0 +1,52 @@
+.team {
+  margin: 100px 0 70px;
+  padding: 100px 0;
+
+  background: #000;
+  background-size: cover;
+}
+
+.team__inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.team__item {
+  width: 25%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.team__photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.team__name {
+  margin-bottom: 8px;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.team__prof {
+  margin-bottom: 15px;
+
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffa500;
+  text-transform: uppercase;
+}
+
+.team__text {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}

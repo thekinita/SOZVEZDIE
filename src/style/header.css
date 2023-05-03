@@ -1,0 +1,153 @@
+/* Header
+===================*/
+
+.header {
+  width: 100%;
+  height: 100px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header.active {
+  background-color: black;
+}
+
+.header.fixed {
+  height: auto;
+
+  position: fixed;
+
+  background-color: black;
+  box-shadow: 1px 1px 20px black;
+}
+
+.header.fixed .header__inner {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+}
+
+.header__logo {    
+  text-transform: uppercase;
+  color: #FFA500;
+  line-height: .9;
+}
+
+.header__logo-tk{
+  font-weight: 700;
+  font-size: 9px;
+  opacity: .8;
+}
+
+.header__logo-comp {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Nav
+===================*/
+
+.nav {
+  display: flex;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav__link {
+  margin-left: 50px;
+
+  color: #ccc;
+  text-decoration: none;
+  opacity: 1;
+
+  transition: all .15s linear;
+}
+
+.nav__link:first-child {
+  margin-left: 0;
+}
+
+.nav__link:hover {
+  opacity: 1;
+  color: #FFA500;
+}
+
+/* Burger */
+.burger {
+  display: none;
+  padding: 9px 2px;
+
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.burger__item {
+  display: block;
+  width: 30px;
+  height: 3px;
+
+  background-color: #fff;
+
+  font-size: 0;
+  color: transparent;
+
+  position: relative;
+  transition: background .0s linear;
+}
+
+.burger__item:before,
+.burger__item:after {
+  content: "";
+  height: 100%;
+
+  background-color: #fff;
+
+  position: absolute;
+  right: 0;
+  z-index: 1;
+
+  transition: transform .2s linear;
+}
+
+.burger__item:before {
+  width: 30px;
+  top: -8px;
+}
+
+.burger__item:after {
+  width: 30px;
+  bottom: -8px;
+}
+
+.burger.active 
+.burger__item {
+  background: none;
+  right: 5px;
+}
+
+.burger.active 
+.burger__item:before {
+  transform-origin: left top;
+  transform: rotate(45deg) translateX(-3px);
+}
+
+.burger.active 
+.burger__item:after {
+  transform-origin: left bottom;
+  transform: rotate(-45deg) translateX(-3px);
+}
+
+.burger.active {
+  width: 22px;
+}

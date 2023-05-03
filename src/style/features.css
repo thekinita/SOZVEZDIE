@@ -1,0 +1,34 @@
+.features {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features__item {
+  width: 33.33333%;
+  padding: 25px 40px;
+
+  text-align: center;
+}
+
+.features__icon {
+  margin-bottom: 25px;
+}
+
+.features__title {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  color: #2d3033;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.features__text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #6c7279;
+}
+
+.fa fa-star-half-o fa-5x{
+  color: #31344e;
+}

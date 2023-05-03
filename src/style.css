@@ -1,0 +1,146 @@
+@import url(./style/scrollbar.css);
+@import url(./style/header.css);
+@import url(./style/intro.css);
+@import url(./style/features.css);
+@import url(./style/works.css);
+@import url(./style/map.css);
+@import url(./style/social.css);
+@import url(./style/reviews.css);
+@import url(./style/slider.css);
+@import url(./style/footer.css);
+@import url(./style/media.css);
+
+body {
+  margin: 0;
+
+  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;    
+  font-size: 14px;
+  color: #6c7279;
+  -webkit-font-smoothing: antialiased;
+
+  background-color: #FFF;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.hide {
+  display: none;
+}
+
+/* Container
+===================*/
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+
+  margin: 30px 0;
+}
+
+.title--team {
+  color: #fff;
+}
+
+/* Button
+===================*/
+
+.btns {
+  display: grid;
+  justify-content: center;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 14px 0;
+  margin: 5px 0;
+  width: 300px;
+
+  border-radius: 2px;
+  border: 0;
+  cursor: pointer;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+
+  transition: all .15s linear;
+}
+
+.btn--tlg {
+  background-color: #30a2e0;
+  opacity: 0.7;
+}
+
+.btn--tlg:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 10px 2px white;
+}
+
+.btn--ati {
+  background-color: #ffa500;
+  opacity: 0.7;
+}
+
+.btn--ati:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 10px 2px white;
+}
+
+
+.btn--long {
+  min-width: 280px;
+}
+
+/* Download
+===================*/
+
+.download {
+  margin: 90px 0;
+
+  text-align: center;
+}
+
+.download__title {
+  margin-bottom: 10px;
+
+  font-size: 28px;
+  color: #2d3033;
+  font-weight: 300;
+}
+
+.download__text {
+  margin-bottom: 30px;
+
+  font-size: 13px;
+  color: #2d3033;
+  font-weight: 700;
+  text-transform: uppercase;
+}

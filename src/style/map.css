@@ -1,0 +1,130 @@
+.map__content {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  width: 100%;
+  height: 490px;
+}
+
+.map__content--mobile {
+  display: none;
+}
+
+.map-menu {
+  display: block;
+
+  border: 2px black solid;
+  border-radius: 10px;
+
+  width: 370px;
+}
+
+.map__link{
+  display: flex;
+  padding: 10px;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+
+  border-bottom: 2px #333 solid;
+
+  height: 40px;
+
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.map__link.active {
+  background-color: #ffa500;
+}
+
+.map__link--last {
+  border-bottom: none;
+}
+
+.map__link i {
+  margin-right: 8px;
+}
+
+.map__info {
+  display: block;
+  padding: 10px;
+
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+
+  height: 80px;
+
+  transition: all .5s;
+  cursor: default;
+}
+
+.map__info-title {
+  display: block;
+}
+
+.map__info-title i {
+  display: none;
+}
+
+.map__info_plosh {
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.map__info_plosh-number {
+  color: #ffa500;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.map__info_plosh-text {
+  font-size: 12px;
+  font-weight: 300;
+  padding: 10px;
+  line-height: .5;
+}
+
+.map__info.active {
+  background-color: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left-menu {
+  flex-shrink: 0;
+  width: 30%;
+}
+
+.map {
+  width: 65%;
+  height: 50vh;
+
+  margin-right: 5%;
+}
+
+.map svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  transition: all .5s;
+}
+
+.map a {
+  transition: all .5s;
+}
+
+.map polygon {
+  transition: all .5s;
+}
+
+.map path {
+  transition: all .5s;
+}

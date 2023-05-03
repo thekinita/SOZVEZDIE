@@ -1,0 +1,18 @@
+import './icon.png'
+import './intro-bg.jpg'
+
+import './features/feature-1.png'
+import './features/feature-2.png'
+import './features/feature-3.png'
+import './features/feature-4.png'
+import './features/feature-5.png'
+import './features/feature-6.png'
+
+import './works/work-1.jpg'
+import './works/work-2.jpg'
+import './works/work-3.jpg'
+import './works/work-4.jpg'
+import './works/work-5.jpg'
+import './works/work-6.jpg'
+import './works/work-7.jpg'
+import './works/work-8.jpg'
