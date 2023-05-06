@@ -1,5 +1,6 @@
 import './icon.png'
 import './intro-bg.jpg'
+import './arrow-back.svg'
 
 import './features/feature-1.png'
 import './features/feature-2.png'
