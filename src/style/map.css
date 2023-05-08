@@ -10,6 +10,10 @@
   display: none;
 }
 
+.map__menu--mobile {
+  display: none;
+}
+
 .map-menu {
   display: block;
 
@@ -91,10 +95,6 @@
 .map__info.active {
   background-color: black;
   color: white;
-}
-
-a {
-  text-decoration: none;
 }
 
 .left-menu {
